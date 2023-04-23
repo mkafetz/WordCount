@@ -1,0 +1,32 @@
+pr 15 20:32:04 mkafetz-QEMU-Virtual-Machine gdm-password]: gkr-pam: 
+unlocked login keyring
+Apr 15 20:32:15 mkafetz-QEMU-Virtual-Machine gdm-launch-environment]: 
+pam_unix(gdm-launch-environment:session): session closed for user gdm
+Apr 15 20:32:15 mkafetz-QEMU-Virtual-Machine systemd-logind[590]: Session 
+c2 logged out. Waiting for processes to exit.
+Apr 15 20:32:15 mkafetz-QEMU-Virtual-Machine systemd-logind[590]: Removed 
+session c2.
+Apr 15 20:32:15 mkafetz-QEMU-Virtual-Machine polkitd(authority=local): 
+Unregistered Authentication Agent for unix-session:c2 (system bus name 
+:1.120, object path /org/fr>
+Apr 15 20:32:22 mkafetz-QEMU-Virtual-Machine dbus-daemon[573]: [system] 
+Failed to activate service 'org.bluez': timed out 
+(service_start_timeout=25000ms)
+Apr 15 20:32:39 mkafetz-QEMU-Virtual-Machine gdm-launch-environment]: 
+pam_unix(gdm-launch-environment:session): session opened for user 
+gdm(uid=128) by (uid=0)
+Apr 15 20:32:39 mkafetz-QEMU-Virtual-Machine systemd-logind[590]: New 
+session c3 of user gdm.
+Apr 15 20:32:39 mkafetz-QEMU-Virtual-Machine systemd: 
+pam_unix(systemd-user:session): session opened for user gdm(uid=128) by 
+(uid=0)
+Apr 15 20:32:40 mkafetz-QEMU-Virtual-Machine polkitd(authority=local): 
+Registered Authentication Agent for unix-session:c3 (system bus name 
+:1.149 [/usr/bin/gnome-shell]>
+Apr 15 20:32:46 mkafetz-QEMU-Virtual-Machine gnome-keyring-daemon[1556]: 
+couldn't initialize slot with master password: The password or PIN is 
+incorrect
+Apr 15 20:32:46 mkafetz-QEMU-Virtual-Machine gdm-password]: gkr-pam: 
+unlocked login keyring
+Apr 15 20:32:57 mkafetz-QEMU-Virtual-Machine gdm-launch-environment]: 
+pam_unix(gdm-launch-environment:session): session closed for user gdm
